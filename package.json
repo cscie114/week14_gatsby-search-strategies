@@ -1,0 +1,43 @@
+{
+  "name": "assignment-4-gatsby-lb-prototype",
+  "version": "1.0.0",
+  "private": true,
+  "description": "assignment-4-gatsby-lb-prototype",
+  "author": "Harvard-DCE-CSCIE3",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop --inspect",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@11ty/eleventy-fetch": "^4.0.0",
+    "@fortawesome/free-solid-svg-icons": "^6.3.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@styled-icons/fa-solid": "^10.47.0",
+    "algoliasearch": "^4.17.0",
+    "dotenv": "^16.0.3",
+    "gatsby": "^5.7.0",
+    "gatsby-plugin-algolia": "^1.0.3",
+    "gatsby-plugin-image": "^3.8.0",
+    "gatsby-plugin-remote-images": "^3.6.5",
+    "gatsby-plugin-sharp": "^5.8.0",
+    "gatsby-plugin-styled-components": "^6.9.0",
+    "gatsby-remark-images": "^7.8.0",
+    "gatsby-source-filesystem": "^5.7.0",
+    "gatsby-transformer-json": "^5.8.0",
+    "gatsby-transformer-remark": "^6.8.0",
+    "gatsby-transformer-sharp": "^5.8.0",
+    "instantsearch.css": "^8.0.0",
+    "js-search": "^2.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-instantsearch-dom": "^6.39.1",
+    "react-instantsearch-hooks-web": "^6.43.0",
+    "styled-components": "^5.3.10"
+  }
+}

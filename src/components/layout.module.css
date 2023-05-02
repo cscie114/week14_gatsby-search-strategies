@@ -1,0 +1,59 @@
+@import url('../styles/variables.css');
+
+html {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+html, body {
+    height: 100%;
+}
+.content {
+    width: 70%;
+    margin: auto;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin: .5rem 0;
+}
+.nav-link-item {
+    padding-right: 2rem;
+}
+.nav-link-item a {
+    color: #000;
+}
+.header {
+    padding: 1rem 0;
+    display: grid;
+    grid-template-areas:
+        "logo title"
+        "logo nav";
+    grid-template-columns: 100px 1fr;
+    align-items: center;
+}
+.main-nav {
+    grid-area: nav;
+}
+.logo {
+    grid-area: logo;
+    padding-right: 20px;
+}
+.site-title {
+    font-size: 2rem;
+    font-weight: 700;
+    grid-area: title;
+}
+.site-title, .site-title a {
+    color: gray;
+    text-decoration: none;
+}
+.heading {
+    color: var(--heading-color);
+}
+.footer {
+    margin-top: 1rem;
+}
+h1 {
+    margin: 0;
+}

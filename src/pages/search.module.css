@@ -1,0 +1,27 @@
+@import url('../styles/variables.css');
+
+.searchBox {
+    margin: 0;
+    font-size: 0.9rem;
+}
+.searchBox p {
+    margin: 0;
+}
+.searchBox input {
+    padding: 1rem;
+    font-size: 1.25rem;
+    width: 100%;
+    outline: 0;
+    border-radius: .5rem;
+    border-style: solid;
+    border-color: var(--primary-color);
+    background-color: #efefef;
+  }
+  .refinementBox {
+    float: left;
+  }
+
+  .RefinementList{
+    border: 1px solid lightgray;
+    padding: 4px;
+  }
