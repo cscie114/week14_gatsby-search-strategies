@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'gatsby';
 import algoliasearch from 'algoliasearch/lite'
 import Layout from '../components/layout'
-//import { InstantSearch, SearchBox, Hits } from 'react-instantsearch-dom'
 import {
   InstantSearch,
   SearchBox,
@@ -24,10 +23,10 @@ const SearchAlgoliaPage = () => {
     <Layout pageTitle="Algolia Search">
       <InstantSearch
         indexName={process.env.GATSBY_ALGOLIA_INDEX_NAME}
-        searchClient={searchClient}
-      >
+        searchClient={searchClient}>
         <SearchBox />
-        <div className={searchStyles.refinementBox}>
+       {/*  
+       <div className={searchStyles.refinementBox}>
           <RefinementList attribute="addresses.stateCode" 
                           showMore="true"
                           className={searchStyles.RefinementList}
@@ -40,7 +39,8 @@ const SearchAlgoliaPage = () => {
                           searchable={true}
                           showMoreLimit={100}
                           />
-        </div>
+        </div> 
+        */}
         <Hits hitComponent={Hit} id="results"/>
       </InstantSearch>
     </Layout>
@@ -57,6 +57,5 @@ function Hit({ hit }) {
     </article>
   );
 }
-
 
 export default SearchAlgoliaPage;

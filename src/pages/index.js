@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 
 const IndexPage = () => {
   return (
-    <Layout pageTitle="CSCI E114 Assignment 4 Page">
+    <Layout pageTitle="CSCI E114 Gatsby Search Demo">
       <div>
         <p>Explore {" "}
           <Link to="/parks">all national parks</Link>, {" "}
@@ -15,8 +15,7 @@ const IndexPage = () => {
           height={600} 
           alt="Acadia's rocky coastline - NPS / Kristi Rugg"
           placeholder="blurred"
-          loading="eager"
-          transformOptions={{grayscale:"true"}}>
+          loading="eager">
           </StaticImage>
       </div>
     </Layout>
